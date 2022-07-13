@@ -1,10 +1,8 @@
 module.exports = {
   content: [
-    './src/TailWindComponent/DemoTailwindComponent.jsx',
-    './src/TailWindComponent/PaddingMarginDemo.jsx',
-    './src/TailWindComponent/FlexDemo.jsx',
-    './src/BaitapTongHop/BaiTapTongHop.jsx',
-    './src/BaitapTongHop/Popup.jsx'
+    './src/templates/**/**/**/*.{html,js,jsx}',
+    './src/pages/**/**/*.{html,js,jsx}',
+    './src/components/**/*.{html,js,jsx}',
   ],
   presets: [],
   darkMode: 'media', // or 'class'
@@ -238,7 +236,6 @@ module.exports = {
       200: '2',
     },
     container: {
-      padding:'1rem'
     },
     content: {
       none: 'none',
